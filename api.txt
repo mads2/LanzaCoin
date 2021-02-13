@@ -1,0 +1,7 @@
+Our API support forums may be found here: https://forums.nomics.com/
+Information about our API may be found here: https://p.nomics.com/cryptocurrency-bitcoin-api/
+Our docs may be found here: https://docs.nomics.com/
+Please note that the Nomics.com website runs entirely off of our free API, so anything you see us doing there (see here for an example), you can do with our product
+
+API key: 4338ae3419af3c7c5500e38ec7399a53 // Please dont abuse. Or better yet, create your own at nomics.com
+Email: mk5 @ gmail.com
