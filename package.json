@@ -1,52 +1,58 @@
 {
   "author": {
-    "email": "mubaidr@gmail.com",
-    "name": "Muhammad Ubaid Raza",
-    "url": "https://mubaidr.github.io/"
+    "name": "Marcelo Silveira",
+    "url": "https://github.com/mads2"
   },
   "dependencies": {
     "bulma-fluent": "^0.3.25",
-    "vue": "^2.6.11"
+    "coingecko-api": "^1.0.10",
+    "core-js": "^3.8.3",
+    "regenerator-runtime": "^0.13.7",
+    "vue": "^2.6.12",
+    "vue-currency-input": "^1.22.6",
+    "vue-grid-responsive": "^0.2.1",
+    "vue-multiselect": "^2.1.6",
+    "vue-select": "^3.11.2"
   },
-  "description": "vue-chrome-extension-boilerplate",
+  "description": "A Chrome extension aimed to provide simple and cluterless, real time cripto prices",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
     "archiver": "^4.0.2",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^6.0.3",
+    "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^3.6.0",
-    "eslint": "^7.4.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-vue": "^6.2.2",
-    "fast-glob": "^3.2.4",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
+    "fast-glob": "^3.2.5",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
-    "sass": "^1.26.10",
-    "sass-loader": "^9.0.2",
-    "script-ext-html-webpack-plugin": "^2.1.4",
-    "style-loader": "^1.2.1",
-    "stylus": "^0.54.7",
+    "sass": "^1.32.7",
+    "sass-loader": "^9.0.3",
+    "script-ext-html-webpack-plugin": "^2.1.5",
+    "style-loader": "^1.3.0",
+    "stylus": "^0.54.8",
     "stylus-loader": "^3.0.2",
-    "vue-loader": "^15.9.3",
+    "vue-loader": "^15.9.6",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.43.0",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
     "webpack-extension-reloader": "^1.1.4"
   },
   "license": "MIT",
-  "name": "vue-chrome-extension-boilerplate",
+  "name": "LanzaCoin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mubaidr/vue-chrome-extension-boilerplate.git"
+    "url": "git+https://github.com/mads2/LanzaCoin.git"
   },
   "scripts": {
     "build": "npm run pack && npm run remove-evals && npm run zip",
@@ -56,5 +62,5 @@
     "remove-evals": "node scripts/remove-evals.js",
     "zip": "node scripts/build-zip.js"
   },
-  "version": "1.0.0"
+  "version": "0.0.3"
 }
