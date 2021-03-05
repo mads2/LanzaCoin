@@ -3,16 +3,8 @@
   <div id="app">
     <br>
     <br><Counter @reloadEvent="reloadEvent"></Counter>
-    <row>
-      <column>
         <h1>Coin converter</h1>
-      </column>
-    </row>
-    <row>
-      <column>
         <CoinMain ref="coinMainRef"></CoinMain>
-      </column>
-    </row>
     <div class="linha" />
     <div class="linha" />
     <div class="linha">

@@ -6,16 +6,15 @@ import 'bulma-fluent/bulma.sass'
 // Vue.component("v-select", vSelect);
 // import 'vue-select/dist/vue-select.css';
 
-// vue-multi-select
-import Multiselect from 'vue-multiselect'
-Vue.component('multiselect', Multiselect)
-import 'vue-multiselect/dist/vue-multiselect.min.css'
+// // vue-multi-select
+// import Multiselect from 'vue-multiselect'
+// Vue.component('multiselect', Multiselect)
+// import 'vue-multiselect/dist/vue-multiselect.min.css'
 
-// vue-grid-responsive
-import { Row, Column, Hidden } from 'vue-grid-responsive';
-Vue.component('row', Row);
-Vue.component('column', Column);
-Vue.component('hidden', Hidden);
+import 'selectize/dist/css/selectize.default.css' // This is required, we use the same css as selectize.js
+import VSelectize from '@isneezy/vue-selectize'
+Vue.component('v-selectize', VSelectize)
+
 
 // vue-currency-input
 import VueCurrencyInput from 'vue-currency-input'

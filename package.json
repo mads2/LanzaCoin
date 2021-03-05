@@ -4,14 +4,15 @@
     "url": "https://github.com/mads2"
   },
   "dependencies": {
+    "@isneezy/vue-selectize": "^0.6.1",
     "bulma-fluent": "^0.3.25",
     "coingecko-api": "^1.0.10",
     "core-js": "^3.8.3",
     "regenerator-runtime": "^0.13.7",
+    "selectize": "^0.12.6",
     "vue": "^2.6.12",
     "vue-currency-input": "^1.22.6",
     "vue-grid-responsive": "^0.2.1",
-    "vue-multiselect": "^2.1.6",
     "vue-select": "^3.11.2"
   },
   "description": "A Chrome extension aimed to provide simple and cluterless, real time cripto prices",
